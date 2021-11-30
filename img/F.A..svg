@@ -1,0 +1,11 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 34" width="128" height="34">
+	<title>F</title>
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 50px;fill: #ffffff;font-weight: 500;font-family: "Acknowledgement", "Acknowledgement" } 
+	</style>
+	<text id="F.A." style="transform: matrix(1,0,0,1,-2,2)" >
+		<tspan x="0" y="30.95" class="txt0">F</tspan><tspan  y="30.95" class="txt0">.</tspan><tspan  y="30.95" class="txt0">A</tspan><tspan  y="30.95" class="txt0">.
+</tspan>
+	</text>
+</svg>

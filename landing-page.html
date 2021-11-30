@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ferhat Alpar | Landing Page</title>
+    <meta name="keywords" content="Ferhat Alpar | Landing Page" />
+    <meta name="description" content="Ferhat Alpar | Landing Page" />
+    <!--Fonts Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+    />
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!--Tablet-->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css" />
+    <!--Mobile-->
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css" />
+  </head>
+  <body>
+    <header class="bg-dark-blue">
+      <div class="container">
+        <nav id="navbar">
+          <img
+            src="img/ferhat.jpg"
+            alt="Logo"
+            style="border-radius: 50%; width: 50px; height: 50px"
+          />
+          <!-- <h2>Ferhat Alpar | Landing Page</h2> -->
+          <ul>
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#training">Eğitimler</a></li>
+            <li><a href="#courses">Kurslar</a></li>
+            <li><a href="#contact">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Home -->
+    <section id="home">
+      <img src="img/ferhat.jpg" alt="Ferhat Alpar" />
+      <div class="name">
+        <h2 class="heading-big text-center">Ferhat Alpar</h2>
+        <p class="text-center">Web Content Editor</p>
+        <a href="#courses" class="btn btn-primary">Kurslara Git</a>
+      </div>
+    </section>
+    <!-- Training -->
+    <section id="training" class="bg-dark-blue">
+      <h3 class="text-center heading-medium">Eğitimler</h3>
+      <div class="items">
+        <article class="item">
+          <i class="fab fa-wordpress"></i>
+          <h3>Wordpress</h3>
+          <p>wordpress</p>
+        </article>
+        <article class="item">
+          <i class="far fa-file-code"></i>
+          <h3>HTML & CSS</h3>
+          <p>html & css</p>
+        </article>
+        <article class="item">
+          <i class="fab fa-js-square"></i>
+          <h3>JavaScript</h3>
+          <p>javascript</p>
+        </article>
+      </div>
+    </section>
+    <section id="courses">
+      <h3 class="text-center heading-medium">Kurslar</h3>
+      <div class="container">
+        <div class="courses">
+          <!-- Course 1 -->
+
+          <div class="course">
+            <div class="course-image">
+              <img src="img/wordpress.jpg" alt="Wordpress" />
+              <span>90% İndirim</span>
+            </div>
+            <div class="course-info">
+              <div class="title">İleri Seviye Wordpres Eğitimi</div>
+              <div class="description">
+                Wordpress Eğitimi'nde panel kurulumu, tema düzenleme,
+                konfigürasyonların yapılandırılması, database ile ilişkilendirme
+                konuları ele alınacaktır.
+              </div>
+              <div class="instructor">Ferhat Alpar</div>
+              <div class="rating">4.8 | (1894 oy)</div>
+            </div>
+          </div>
+
+          <!-- Course 2 -->
+
+          <div class="course">
+            <div class="course-image">
+              <img src="img/html-css.jpg" alt="Wordpress" />
+              <span>80% İndirim</span>
+            </div>
+            <div class="course-info">
+              <div class="title">İleri Seviye Wordpres Eğitimi</div>
+              <div class="description">
+                Wordpress Eğitimi'nde panel kurulumu, tema düzenleme,
+                konfigürasyonların yapılandırılması, database ile ilişkilendirme
+                konuları ele alınacaktır.
+              </div>
+              <div class="instructor">Ferhat Alpar</div>
+              <div class="rating">4.7 | (2394 oy)</div>
+            </div>
+          </div>
+
+          <!-- Course 3 -->
+
+          <div class="course">
+            <div class="course-image">
+              <img src="img/js.jpg" alt="Wordpress" />
+              <span>70% İndirim</span>
+            </div>
+            <div class="course-info">
+              <div class="title">İleri Seviye Wordpres Eğitimi</div>
+              <div class="description">
+                Wordpress Eğitimi'nde panel kurulumu, tema düzenleme,
+                konfigürasyonların yapılandırılması, database ile ilişkilendirme
+                konuları ele alınacaktır.
+              </div>
+              <div class="instructor">Ferhat Alpar</div>
+              <div class="rating">4.8 | (3054 oy)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer & Contact -->
+    <footer id="contact" class="bg-dark-blue">
+      <div class="contact-form">
+        <form>
+          <h4 class="text-center heading-medium">Bize Ulaşın</h4>
+          <div class="form-group">
+            <label for="name">İsim</label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="name"
+              placeholder="İsim"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              class="form-control"
+              name="email"
+              id="email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Mesaj</label>
+            <textarea
+              name="message"
+              id="message"
+              class="form-control"
+              rows="5"
+              placeholder="Mesajınız..."
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-block">Gönder</button>
+        </form>
+        <ul>
+          <li>
+            <a href=""><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
